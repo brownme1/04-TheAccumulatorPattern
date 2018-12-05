@@ -54,7 +54,7 @@ def run_test_sum_more_cosines():
     # -------------------------------------------------------------------------
     print()
     print('--------------------------------------------------')
-    print('Testing the   sum_more_cosines   function:')
+    print('run_test_sum_more_cosine')
     print('--------------------------------------------------')
 
     # Test 1:

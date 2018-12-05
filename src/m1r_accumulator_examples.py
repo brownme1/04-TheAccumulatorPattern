@@ -5,8 +5,8 @@ This module demonstrates the ACCUMULATOR pattern in three classic forms:
    IN GRAPHICS:   x = x + pixels
 
 Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
-         Aaron Wilkin, their colleagues, and PUT_YOUR_NAME_HERE.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+         Aaron Wilkin, their colleagues, and Morgan Brown.
+"""  # DONE: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 ###############################################################################
 #
@@ -27,18 +27,18 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #          which of the following three choices would you use?
 #
 #            for k in range(r - 1):
-#            for k in range(r):
+#            {for k in range(r): yes
 #            for k in range(r + 1):
 #
 #     b. If you want a loop that runs from 0 to s, inclusive,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(__s___):
 #
 #     c. If you want a loop that runs from r to s, inclusive, assuming s >= r,
 #          what expression would you use in the _____ below?
 #
-#            for k in range(_____):
+#            for k in range(__r-s___):
 #
 #     d. If you want a loop that runs from (r + 4) to (s - 10),
 #          including the (r + 4) but not including the (s - 10),
@@ -52,8 +52,8 @@ Authors: David Mutchler, Vibha Alangar, Matt Boutell, Dave Fisher, Mark Hays,
 #
 #              for k in range(r - s):
 #                  count = 0
-#                  if math.cos(r) > 0:
-#                      count = 1
+#                  if k is math.cos(r) > 0:
+#                      count = count +1
 #                  return count
 #
 #     f. The code in the "graphics accumulation" example below includes:
